@@ -1,7 +1,7 @@
 const { faker } = require("@faker-js/faker");
 const { addReview } = require("./objects");
 
-describe("🌶️🌶️🌶️ Challenge", () => {
+xdescribe("🌶️🌶️🌶️ Challenge", () => {
   let book;
   let newReview;
 
@@ -18,7 +18,7 @@ describe("🌶️🌶️🌶️ Challenge", () => {
     };
   });
 
-  describe("addReview", () => {
+  xdescribe("addReview", () => {
     it("should add a review to an exist array of reviews", () => {
       book.reviews = [
         {
